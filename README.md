@@ -14,24 +14,6 @@ git clone https://github.com/chrisbergeron/MMM-NextRocketLaunch.git
 
 To use, just add the following to the MagicMirror config file ( it's named config/config.sh ):
 ```
-
-```
-Then reload MagicMirror.
-
-
-To customize the appearance of the module, you can override the default values by editing the css/custom.css file:
-
-
-```
-/* MMM-NextRocketLaunch */
-    .module.MMM-NetworkScanner {
-        background-color:rgba(0,0,0,0.0);  
-    }
-```
-
-Configuration:
-
-```javascript
 {
 	module: 'MMM-NextRocketLaunch',
 	position: 'top_right',
@@ -40,5 +22,29 @@ Configuration:
 		url: 'https://xyz/abc/get.json', // Required
 		arrayName: 'items' // Optional
 	}
+},
+```
+#NOTE# If this is the only module in your MagicMirror configuration, you can omit the last comma (,).  Then reload MagicMirror.
+
+To customize the appearance of the module, you can override the default values by editing the css/custom.css file:
+
+```
+/* MMM-NextRocketLaunch */
+    .module.MMM-NetworkScanner {
+        background-color:rgba(0,0,0,0.0);  
+    }
+```
+
+Configuration Options:
+| Option | Description |
+| --- | --- |
+| position | Where the module will appear.  Valid values are: `top_right`, `center`, `bottom_right` or any value that is supported by MagicMirror|
+| header | The name of the header to display, or *null* to not display the module's header at all |
+
+```javascript
+{
+	module: 'MMM-NextRocketLaunch',
+	position: 'top_right',
+	header: 'Next Rocket Launch',
 }
 ```
