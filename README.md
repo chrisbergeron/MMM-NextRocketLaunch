@@ -13,7 +13,7 @@ git clone https://github.com/chrisbergeron/MMM-NextRocketLaunch.git
 ![](example1.png)
 
 To enable this module just add the following to the MagicMirror config file `config/config.js`:
-```
+```javascript
 {
 	module: 'MMM-NextRocketLaunch',
 	position: 'top_right',
@@ -24,7 +24,7 @@ To enable this module just add the following to the MagicMirror config file `con
 
 To customize the appearance of the module, you can override the default values by editing the css/custom.css file:
 
-```
+```css
 /* MMM-NextRocketLaunch */
     .module.MMM-NetworkScanner {
         background-color:rgba(0,0,0,0.0);  
