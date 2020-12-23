@@ -55,3 +55,5 @@ To customize the appearance of the module, you can override the default CSS valu
 ### Project Roadmap
 * Display an actual countdown timer in nodeJS. (If you know how to do this, please feel free to submit a pull request.  Sorry, I'm still learning JS.)
 * Parse options that can override the default API Request.  Specifically, to only show results that are Cleared or launches from a specific PAD or Spaceport.
+
+Hat Tip to Tim Dows for the script that I used as a template for this - [MMM-JsonTable](https://github.com/timdows/MMM-JsonTable)
