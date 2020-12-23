@@ -45,8 +45,8 @@ To customize the appearance of the module, you can override the default CSS valu
 
 ```javascript
 {
-	module: 'MMM-NextRocketLaunch',   /* This is required */
-	position: 'top_right',            /* This is required */
-	header: 'Next Rocket Launch',     /* This is optional */
+	module:   'MMM-NextRocketLaunch',   /* Required */
+	position: 'top_right',            /* Required */
+	header:   'Next Rocket Launch',     /* Optional */
 },
 ```
