@@ -22,6 +22,7 @@ To enable this module just add the following to the MagicMirror config file `con
 ```
 **NOTE**: If this is the only module in your MagicMirror configuration, you can omit the last comma (,).
 
+
 Next just reload MagicMirror:
 ```bash
 npm start run
