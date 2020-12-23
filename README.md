@@ -1,5 +1,5 @@
 # MMM-NextRocketLaunch
-Magic Mirror Module to display the Next Rocket Launch
+This is a Magic Mirror Module that displays the Next Rocket Launch.  The data comes from the excellent Launch Library 2 API provided by [thespacedevs](https://thespacedevs.com/llapi).  (Documentation)[https://launchlibrary.net/docs/1.4/api.html]
 
 ![NextRocketLaunch Module](example1.png)
 
@@ -28,7 +28,7 @@ Next just reload MagicMirror:
 npm start run
 ```
 
-To customize the appearance of the module, you can override the default CSS values by editing the css/custom.css file:
+To customize the appearance of the module, you can override the default CSS values by editing the `css/custom.css` file:
 
 ```css
 /* MMM-NextRocketLaunch */
