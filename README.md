@@ -1,5 +1,5 @@
 # MMM-NextRocketLaunch
-This is a Magic Mirror Module that displays the Next Rocket Launch.  The data comes from the excellent Launch Library 2 API provided by [thespacedevs](https://thespacedevs.com/llapi).  [Documentation](https://launchlibrary.net/docs/1.4/api.html)
+This is a Magic Mirror Module that displays the Next Rocket Launch.  The data comes from the excellent Launch Library 2 API provided by [thespacedevs](https://thespacedevs.com/llapi).  This is the Launch Library 2 [Documentation](https://launchlibrary.net/docs/1.4/api.html).
 
 ![NextRocketLaunch Module](example1.png)
 
