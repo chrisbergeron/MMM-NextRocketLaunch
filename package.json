@@ -11,12 +11,13 @@
       "MagicMirror",
       "rocket",
       "nasa",
-      "spacex", "space-x"
+      "spacex", 
+      "space-x"
     ],
-    "author": "shbatm",
+    "author": "Chris Bergeron",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/shbatm/MMM-OnScreenMenu/issues"
+      "url": "https://github.com/chrisbergeron/MMM-OnScreenMenu/issues"
     },
     "homepage": "https://chrisbergeron.com/2020/12/04/My-NextRocketLaunch-MagicMirror-Module/",
     "dependencies": {
