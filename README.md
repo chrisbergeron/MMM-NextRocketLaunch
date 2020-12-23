@@ -28,7 +28,7 @@ Next just reload MagicMirror:
 npm start run
 ```
 
-To customize the appearance of the module, you can override the default CSS values by editing the `css/custom.css` file:
+To customize the appearance of the module, you can override the default CSS values by editing the `css/custom.css` file.  Any valid standard CSS components present in MagicMirror or this module's code can be overridden.  This is an example of setting the background to transparent for this module:
 
 ```css
 /* MMM-NextRocketLaunch */
@@ -37,7 +37,7 @@ To customize the appearance of the module, you can override the default CSS valu
     }
 ```
 
-### Configuration Options:
+### Configuration Options
 | Option | Description |
 | --- | --- |
 | position | Where the module will appear.  Valid values are: `top_right`, `center`, `bottom_right` or any value that is supported by MagicMirror. |
@@ -50,3 +50,8 @@ To customize the appearance of the module, you can override the default CSS valu
 	header: 'Next Rocket Launch',     /* Optional */
 },
 ```
+
+
+### Project Roadmap
+* Display an actual countdown timer in nodeJS.
+* Parse options that can override the default API Request.  Specifically, to only show results that are Cleared or launches from a specific PAD or Spaceport.
