@@ -20,9 +20,14 @@ To enable this module just add the following to the MagicMirror config file `con
 	header: 'Next Rocket Launch',
 },
 ```
-# NOTE: If this is the only module in your MagicMirror configuration, you can omit the last comma (,).  Then reload MagicMirror.
+*NOTE*: If this is the only module in your MagicMirror configuration, you can omit the last comma (,).
 
-To customize the appearance of the module, you can override the default values by editing the css/custom.css file:
+Next just reload MagicMirror:
+```bash
+npm start run
+```
+
+To customize the appearance of the module, you can override the default CSS values by editing the css/custom.css file:
 
 ```css
 /* MMM-NextRocketLaunch */
