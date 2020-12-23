@@ -39,13 +39,13 @@ To customize the appearance of the module, you can override the default CSS valu
 Configuration Options:
 | Option | Description |
 | --- | --- |
-| position | Where the module will appear.  Valid values are: `top_right`, `center`, `bottom_right` or any value that is supported by MagicMirror|
-| header | The name of the header to display, or `null` to not display the module's header at all |
+| position | Where the module will appear.  Valid values are: `top_right`, `center`, `bottom_right` or any value that is supported by MagicMirror. |
+| header | The name of the header to display, or `null` to not display the module's header at all. |
 
 ```javascript
 {
-	module: 'MMM-NextRocketLaunch',
-	position: 'top_right',
-	header: 'Next Rocket Launch',
+	module: 'MMM-NextRocketLaunch',   /* This is required */
+	position: 'top_right',            /* This is required */
+	header: 'Next Rocket Launch',     /* This is optional */
 },
 ```
