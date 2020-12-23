@@ -32,7 +32,7 @@ To customize the appearance of the module, you can override the default CSS valu
 
 ```css
 /* MMM-NextRocketLaunch */
-    .module.MMM-NetworkScanner {
+.module.MMM-NetworkScanner {
         background-color:rgba(0,0,0,0.0);  
     }
 ```
