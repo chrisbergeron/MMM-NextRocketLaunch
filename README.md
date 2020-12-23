@@ -20,7 +20,7 @@ To enable this module just add the following to the MagicMirror config file `con
 	header: 'Next Rocket Launch',
 },
 ```
-*NOTE*: If this is the only module in your MagicMirror configuration, you can omit the last comma (,).
+**NOTE**: If this is the only module in your MagicMirror configuration, you can omit the last comma (,).
 
 Next just reload MagicMirror:
 ```bash
@@ -36,7 +36,7 @@ To customize the appearance of the module, you can override the default CSS valu
     }
 ```
 
-Configuration Options:
+### Configuration Options:
 | Option | Description |
 | --- | --- |
 | position | Where the module will appear.  Valid values are: `top_right`, `center`, `bottom_right` or any value that is supported by MagicMirror. |
