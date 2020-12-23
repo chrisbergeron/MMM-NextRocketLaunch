@@ -1,6 +1,8 @@
 # MMM-NextRocketLaunch
 Magic Mirror Module to display the Next Rocket Launch
 
+![NextRocketLaunch Module](example1.png)
+
 ## Installation
 ````
 # Change into the MagicMirror modules directory
@@ -9,8 +11,6 @@ cd path/to/magicmirror/modules
 # Clone this repo as a module
 git clone https://github.com/chrisbergeron/MMM-NextRocketLaunch.git
 ````
-
-![](example1.png)
 
 To enable this module just add the following to the MagicMirror config file `config/config.js`:
 ```javascript
