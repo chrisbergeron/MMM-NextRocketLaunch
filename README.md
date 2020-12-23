@@ -39,7 +39,7 @@ Configuration Options:
 | Option | Description |
 | --- | --- |
 | position | Where the module will appear.  Valid values are: `top_right`, `center`, `bottom_right` or any value that is supported by MagicMirror|
-| header | The name of the header to display, or *null* to not display the module's header at all |
+| header | The name of the header to display, or `*null*` to not display the module's header at all |
 
 ```javascript
 {
