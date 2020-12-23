@@ -53,5 +53,5 @@ To customize the appearance of the module, you can override the default CSS valu
 
 
 ### Project Roadmap
-* Display an actual countdown timer in nodeJS.
+* Display an actual countdown timer in nodeJS. (If you know how to do this, please feel free to submit a pull request.  I'm still learning JS)
 * Parse options that can override the default API Request.  Specifically, to only show results that are Cleared or launches from a specific PAD or Spaceport.
