@@ -17,9 +17,9 @@
     "author": "Chris Bergeron",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/chrisbergeron/MMM-OnScreenMenu/issues"
+      "url": "https://github.com/chrisbergeron/MMM-NextRocketLaunch/issues"
     },
-    "homepage": "https://chrisbergeron.com/2020/12/04/My-NextRocketLaunch-MagicMirror-Module/",
+    "homepage": "https://chrisbergeron.com/2020/12/04/MMM-NextRocketLaunch-MagicMirror-Module/",
     "dependencies": {
       "child_process": "^1.0.2",
       "url": "^0.11.0"
